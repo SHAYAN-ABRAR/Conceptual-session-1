@@ -1,3 +1,48 @@
-h3{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:wght@300&display=swap');
+.a{
+    background-image: url(images/cat.jpg);
+    height: 100vh;
+}
+*{
+    margin: 0;
+    background-size: cover;
+    background-position: center top;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    
+}
+.a h1{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+}
+.b{
+    width: 80%;
+    margin: 60px auto;
+    background-color: antiquewhite;
+    padding: 60px;
+    border-width: 15px;
+    border-color: brown;
+    border-style: groove;
+}
+.b h3{
+    text-align: center;
+    font-size: 48px;
+    border-color: blueviolet;
+    border-style: dotted;
+    border-width: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    margin: 30px;
+}
+.b p{
+    font-size: 20px;
+    line-height: 2em;
 }
