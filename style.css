@@ -2,6 +2,7 @@
 .a{
     background-image: url(images/cat.jpg);
     height: 100vh;
+    clip-path: polygon(0 0, 100% 2%, 100% 50%, 48% 100%, 46% 100%, 0% 50%);
 }
 *{
     margin: 0;
@@ -9,7 +10,7 @@
     background-position: center top;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-
+    
     
 }
 .a h1{
@@ -21,16 +22,14 @@
     word-spacing: 40px;
     letter-spacing: 20px;
 }
-.b{
+.b ,#c{
     width: 80%;
     margin: 60px auto;
-    background-color: antiquewhite;
+    background: linear-gradient(45deg, pink, blueviolet);
     padding: 60px;
-    border-width: 15px;
-    border-color: brown;
-    border-style: groove;
+ 
 }
-.b h3{
+.b h3 ,#c h3{
     text-align: center;
     font-size: 48px;
     border-color: blueviolet;
@@ -45,4 +44,14 @@
 .b p{
     font-size: 20px;
     line-height: 2em;
+}
+.d{
+    display: flex;
+    gap: 30px;
+}
+.d div{
+    min-width: 300px;
+}
+.d img{
+    width: 100%;
 }
